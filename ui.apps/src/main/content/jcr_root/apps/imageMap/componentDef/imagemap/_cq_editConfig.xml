@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    cq:actions="[edit,-,copymove,delete,-,insert,-]"
+    cq:dialogMode="floating"
+    cq:disableTargeting="{Boolean}true"
+    cq:layout="editbar"
+    jcr:primaryType="cq:EditConfig">
+    <cq:dropTargets jcr:primaryType="nt:unstructured">
+        <image
+            jcr:primaryType="cq:DropTargetConfig"
+            accept="[image/.*]"
+            groups="[media]"
+            propertyName="./fileReference"/>
+    </cq:dropTargets>
+    <cq:actionConfigs jcr:primaryType="nt:unstructured">
+        <editexpression
+            jcr:primaryType="nt:unstructured"
+            handler="CQ.FormsCoreComponents.editorhooks.openRuleEditor"
+            icon="bidRule"
+            order="after CONFIGURE"
+            text="Edit Rules"/>
+        <replace
+            jcr:primaryType="nt:unstructured"
+            condition="CQ.FormsCoreComponents.editorhooks.isReplaceable"
+            handler="CQ.FormsCoreComponents.editorhooks.replace"
+            icon="shuffle"
+            text="Replace"/>
+        <qualifiedName
+            jcr:primaryType="nt:unstructured"
+            handler="CQ.FormsCoreComponents.editorhooks.viewQualifiedName"
+            icon="viewSOMExpression"
+            text="View Qualified Name"/>
+    </cq:actionConfigs>
+</jcr:root>

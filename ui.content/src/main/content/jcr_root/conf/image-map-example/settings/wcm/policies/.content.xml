@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+          jcr:mixinTypes="[rep:AccessControllable]"
+          jcr:primaryType="cq:Page">
+    <image-map-example jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <page jcr:primaryType="nt:unstructured">
+                <policy_212634895490169
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image Map Example"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        ampMode="pairedAmp"
+                        appResourcesClientlib="cmp-examples.site"
+                        clientlibs="[cmp-examples.base,forms-examples.base]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_212634895490169>
+            </page>
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <policy_212634895490171
+                            jcr:primaryType="nt:unstructured"
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:title="formcontainer-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[group:Core Components Examples - Adaptive Form,group:Core Components Examples - Forms And Communications Portal]">
+                        >
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_212634895490171>
+                </container>
+            </form>
+        </components>
+    </image-map-example>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_76194888503838
+                            cq:styleDefaultClasses="cmp-examples-structure"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Image Map Example - Root"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/libs/wcm/foundation/components/responsivegrid,group:Core Components Examples,group:.core-wcm,group:.core-wcm-form,group:Core Components Examples - Adaptive Form,group:Core Components Examples - Forms And Communications Portal]">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1544531934044
+                                        jcr:primaryType="nt:unstructured"
+                                        assetGroup="media"
+                                        assetMimetype="image/*"
+                                        droptarget="image"
+                                        resourceType="core-components-examples/components/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"
+                                mergeList="{Boolean}true"/>
+                    </policy_76194888503838>
+                    <policy_1545309074617
+                            cq:styleDefaultClasses="cmp-examples-structure__main"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Image Map Example - Structure"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/libs/wcm/foundation/components/responsivegrid,group:Core Components Examples,group:Core Components Examples - Adaptive Form,group:Core Components Examples - Forms And Communications Portal]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1544531934044
+                                        jcr:primaryType="nt:unstructured"
+                                        assetGroup="media"
+                                        assetMimetype="image/*"
+                                        droptarget="image"
+                                        resourceType="core-components-examples/components/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                    cq:styleGroupLabel="Area"
+                                    jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                            cq:styleClasses="cmp-examples-structure__header"
+                                            cq:styleId="1545309104202"
+                                            cq:styleLabel="Header"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                            cq:styleClasses="cmp-examples-structure__main"
+                                            cq:styleId="1545309110033"
+                                            cq:styleLabel="Main"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                            cq:styleClasses="cmp-examples-structure__footer"
+                                            cq:styleId="1551382932159"
+                                            cq:styleLabel="Footer"
+                                            jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1545309074617>
+                    <page-header
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="page-header-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="/apps/forms-components-examples/components/form/pageheader">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </page-header>
+                    <page-footer
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="page-footer-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="/apps/forms-components-examples/components/form/footer">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </page-footer>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <image-map-example jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <page jcr:primaryType="nt:unstructured">
+                <default
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image Map Example - Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        ampMode="pairedAmp"
+                        appResourcesClientlib="cmp-examples.site"
+                        clientlibs="[cmp-examples.base,forms-examples.base]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </default>
+            </page>
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="formcontainer-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[group:Core Components Examples - Adaptive Form,group:Core Components Examples - Forms And Communications Portal,group:Core Components Examples]">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </default>
+                </container>
+                <numberinput jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="numberinput-default-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            allowedFormat1="No Pattern=#####################.###############"
+                            allowedFormat2="$1,234.21=¤#,##0.00"
+                            allowedFormat3="$1234.21=()¤####0.00"
+                            allowedFormat4="1,234.210=#,###,##0.000"
+                            allowedFormat5="123,421%=#,###,##0%"
+                            allowedFormat6="23421%=####0%"
+                            lang1="German=de-DE"
+                            lang2="English=en-US"
+                            lang3="Spanish=es-ES"
+                            lang4="French=fr-FR"
+                            lang5="Italian=it-IT"
+                            lang6="Japanese=ja-JP"
+                            lang7="Chinese (Simplified)=zh-CN"
+                            lang8="Chinese (Traditional)=zh-TW"
+                            lang9="Korean=ko-KR">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </default>
+                </numberinput>
+                <datepicker jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="datepicker-default-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            allowedFormat1="01 April, 2007=d MMMM, y"
+                            allowedFormat2="April 01, 2007=MMMM d, y"
+                            allowedFormat3="Sunday, 01 April, 2007=EEEE, d MMMM, y"
+                            allowedFormat4="Sunday, April 01, 2007=EEEE, MMMM d, y"
+                            allowedFormat5="1/4/2007=d/M/y"
+                            allowedFormat6="4/1/2007=M/d/y"
+                            lang1="German=de-DE"
+                            lang2="English=en-US"
+                            lang3="Spanish=es-ES"
+                            lang4="French=fr-FR"
+                            lang5="Italian=it-IT"
+                            lang6="Japanese=ja-JP"
+                            lang7="Chinese (Simplified)=zh-CN"
+                            lang8="Chinese (Traditional)=zh-TW"
+                            lang9="Korean=ko-KR">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </default>
+                </datepicker>
+                <telephoneinput jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2022-07-12T11:41:57.902+05:30"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="telephoneinput-default-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            allowedFormat1="International=^[+][0-9]{0,14}$"
+                            allowedFormat2="US Phone Number=^[+]1[0-9]{0,10}$"
+                            allowedFormat3="UK Phone Number=^[+]44[0-9]{0,10}$"
+                            lang1="German=de-DE"
+                            lang2="English=en-US"
+                            lang3="Spanish=es-ES"
+                            lang4="French=fr-FR"
+                            lang5="Italian=it-IT"
+                            lang6="Japanese=ja-JP"
+                            lang7="Chinese (Simplified)=zh-CN"
+                            lang8="Chinese (Traditional)=zh-TW"
+                            lang9="Korean=ko-KR">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </default>
+                </telephoneinput>
+                <panelcontainer jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2023-03-07T11:41:57.902+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="panelcontainer-default-policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            layout="responsiveGrid"
+                            layoutDisabled="true">
+                        <jcr:content
+                                jcr:primaryType="nt:unstructured"/>
+                    </default>
+                </panelcontainer>
+                <switch jcr:primaryType="nt:unstructured">
+                    <default
+                            jcr:lastModified="{Date}2023-10-05T12:36:42.398+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Switch-label-visibility-policy"
+                            cq:styleDefaultClasses="cmp-adaptiveform-switch__hide-labels"
+                            sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                    cq:styleGroupLabel="Hide labels"
+                                    jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                            cq:styleClasses="cmp-adaptiveform-switch__hide-labels"
+                                            cq:styleId="1696489484081"
+                                            cq:styleLabel="Hide Labels"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                            cq:styleClasses="cmp-adaptiveform-switch__unhide-labels"
+                                            cq:styleId="1696489594671"
+                                            cq:styleLabel="Show Labels"
+                                            jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </default>
+                </switch>
+            </form>
+            <page jcr:primaryType="nt:unstructured">
+                <default
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image Map Example Test - Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[forms-it.base]"
+                        clientlibsAsync="true">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </default>
+            </page>
+        </components>
+    </image-map-example>
+</jcr:root>

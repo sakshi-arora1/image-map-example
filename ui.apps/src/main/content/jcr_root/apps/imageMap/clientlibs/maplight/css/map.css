@@ -1,0 +1,103 @@
+[data-image-af-field] { 
+   cursor: pointer;
+}
+
+#carImageDisplay {
+	max-height: 300px;
+}
+
+h1.cmp-title__text {
+    text-align: center;
+    color: black;
+    font-size: xxx-large;
+    text-decoration: underline;  
+}
+
+form .cmp-adaptiveform-radiobutton[data-cmp-valid=true],
+form .cmp-adaptiveform-switch[data-cmp-valid=true],
+form .cmp-adaptiveform-fileinput[data-cmp-valid=true]{
+    border-width: 0px;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="highDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="moderateDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="lowDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="noDamageButton"] {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: x-large;
+    border-radius: 0.1rem;
+    border-color: #000000;
+    height: 66px;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="highDamageButton"]:hover,
+.cmp-adaptiveform-button__widget[aria-label="moderateDamageButton"]:hover,
+.cmp-adaptiveform-button__widget[aria-label="lowDamageButton"]:hover,
+.cmp-adaptiveform-button__widget[aria-label="noDamageButton"]:hover {
+    font-size: xx-large;
+    border-width: thick;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="highDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="highDamageButton"]:hover {
+    background-color: #8B0000;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="moderateDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="moderateDamageButton"]:hover {
+    background-color: #FF8C00;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="lowDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="lowDamageButton"]:hover {
+    background-color: #FFC200;
+}
+
+.cmp-adaptiveform-button__widget[aria-label="noDamageButton"],
+.cmp-adaptiveform-button__widget[aria-label="noDamageButton"]:hover {
+    background-color: #666
+}
+
+
+[role="highDamageText"] .cmp-adaptiveform-radiobutton,
+[role="moderateDamageText"] .cmp-adaptiveform-radiobutton,
+[role="lowDamageText"] .cmp-adaptiveform-radiobutton,
+[role="highDamageText"] .cmp-adaptiveform-radiobutton .cmp-adaptiveform-radiobutton__widget,
+[role="moderateDamageText"] .cmp-adaptiveform-radiobutton .cmp-adaptiveform-radiobutton__widget,
+[role="lowDamageText"] .cmp-adaptiveform-radiobutton .cmp-adaptiveform-radiobutton__widget {
+    display: none;
+}
+
+[role="highDamageText"] .cmp-adaptiveform-radiobutton:has([value="HighDamage"][checked="checked"]),
+[role="moderateDamageText"] .cmp-adaptiveform-radiobutton:has([value="ModerateDamage"][checked="checked"]),
+[role="lowDamageText"] .cmp-adaptiveform-radiobutton:has([value="LowDamage"][checked="checked"]),
+[role="highDamageText"] .cmp-adaptiveform-radiobutton:has([value="HighDamage"][checked="checked"]) .cmp-adaptiveform-radiobutton__label-container,
+[role="moderateDamageText"] .cmp-adaptiveform-radiobutton:has([value="ModerateDamage"][checked="checked"]) .cmp-adaptiveform-radiobutton__label-container,
+[role="lowDamageText"] .cmp-adaptiveform-radiobutton:has([value="LowDamage"][checked="checked"]) .cmp-adaptiveform-radiobutton__label-container {
+    display: block;
+}
+
+[role="highDamageText"] label,
+[role="moderateDamageText"] label,
+[role="lowDamageText"] label {
+    font-size: xx-large;
+}
+
+[role="highDamageText"] label.cmp-adaptiveform-radiobutton__label,
+[role="moderateDamageText"] label.cmp-adaptiveform-radiobutton__label,
+[role="lowDamageText"] label.cmp-adaptiveform-radiobutton__label {
+    font-size: x-large;
+}
+
+[role="highDamageText"] label {
+    color: #8B0000;
+}
+
+[role="moderateDamageText"] label {
+    color: #FF8C00;
+}
+
+[role="lowDamageText"] label {
+    color: #FFC200;
+}

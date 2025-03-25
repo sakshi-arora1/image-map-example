@@ -1,0 +1,5 @@
+#base=js
+jquery-3.5.1.min.js
+jquery.maphilight.min.js
+imageMapResizer.min.js
+map.js

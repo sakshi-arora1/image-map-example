@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/image-map-example"/>
+    <filter root="/content/dam/formsanddocuments/carinsurance"/>
+    <filter root="/content/dam/formsanddocuments/securecarinsurance"/>
+    <filter root="/content/dam/formsanddocuments/securecarinsurance1"/>
+    <filter root="/content/forms/af/securecarinsurance"/>
+    <filter root="/content/forms/af/securecarinsurance1"/>
+    <filter root="/content/forms/af/carinsurance"/>
+</workspaceFilter>
